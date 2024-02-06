@@ -90,10 +90,12 @@ body{
 }
 
 .socialmedialogo{
-    margin: 15px;
+    margin: 30px;
     height: 27px;
     width: 27px;
     cursor: pointer;
+    margin-right: 15px;
+    margin-left: 15px;
     margin-bottom: 30px;
     float: right;
 }
