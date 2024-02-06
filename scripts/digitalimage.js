@@ -143,7 +143,11 @@ document.querySelectorAll('.next-div').forEach((textItem) => {
     })    
 })
 
-
+document.querySelectorAll('.promo-div').forEach((promo)=> {
+    promo.addEventListener('click', function() {
+        elementServices.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+    })
+})
 
 
 

@@ -95,6 +95,7 @@ body{
     width: 27px;
     cursor: pointer;
     margin-bottom: 30px;
+    float: right;
 }
 
 .socialmedialogo:hover{
@@ -357,22 +358,23 @@ button:hover{
     align-items: center;
     justify-content: center;
     border: 3px solid rgba(255, 255, 255, .1);
+    border-radius: 3px;
     cursor: pointer;
 
 }
 
 .promo-div:hover{
-    width: 303px;
-    height: 213px;
-    border: 1px solid rgba(255, 255, 255, .5);
+    width: 300px;
+    height: 210px;
+    border: 3px solid rgba(255, 255, 255, .5);
     .promo-image{
         opacity: 1;
     }
 }
 
 .promo-image{
-    width: 11vh;
-    height: 10vh;
+    width: 10vh;
+    height: 8vh;
     opacity: 0.75;
 }
 
@@ -495,8 +497,8 @@ button:hover{
     }
 
     .promo-image{
-        width: 6vh;
-        height: 6vh;
+        width: 5vh;
+        height: 4vh;
         margin: 0;
     }
 
