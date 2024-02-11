@@ -284,13 +284,13 @@ button{
     cursor: pointer;
     margin-bottom: 30px;
     box-shadow: 0 0 10px rgba(222, 222, 222, 0.4);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.2s;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
     -webkit-transition-property: transform, box-shadow, opacity;
     transition-property: transform, box-shadow, opacity;
 }
 button:hover{
-    opacity: 0.8;
+    opacity: 0.9;
     box-shadow: 0 0 10px rgba(222, 222, 222, 0.6);
     transform: scale(1.01);
     -webkit-transform: scale(1.01);
