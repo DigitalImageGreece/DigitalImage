@@ -292,7 +292,7 @@ button{
 button:hover{
     opacity: 0.9;
     box-shadow: 0 0 10px rgba(222, 222, 222, 0.6);
-    transform: scale(1.01);
+    transform: scale(1.04);
     -webkit-transform: scale(1.01);
 }
 
@@ -388,8 +388,8 @@ button:hover{
 }
 
 .promo-image{
-    width: 9vh;
-    height: 7vh;
+    width: 8vh;
+    height: 6vh;
     opacity: 0.75;
     box-shadow: 0, 0, 15px, white;    
 }
