@@ -43,6 +43,10 @@ elementLogo2.addEventListener('click', function(){
     window.open("index.html", "_self");
 })
 
+elementArrowtop.addEventListener('click', function(){
+    window.open("index.html", "_self");
+})
+
 document.querySelectorAll('.header-text').forEach((headerItem) => {
     const headerItemText = headerItem.textContent.trim().toUpperCase();
     headerItem.addEventListener('click', function() {
