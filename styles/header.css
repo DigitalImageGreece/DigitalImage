@@ -521,8 +521,8 @@ button:hover{
 
     .home, .about, .services, .projects, .contact{
         width: 80%;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
         padding-bottom: 180px;
     } 
     
