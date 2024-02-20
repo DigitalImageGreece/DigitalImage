@@ -153,6 +153,32 @@ document.querySelectorAll('.promo-div').forEach((promo)=> {
     })
 })
 
+function sendMail(){
+    var params = {
+        surname: document.getElementById("surname").value,
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        company: document.getElementById("company").value,
+        message: document.getElementById("message").value
+    }
+
+    const serviceID = "service_ium26vu"
+    const templateID = "template_fcszylt"
+
+    emailjs.send(serviceID,templateID,params)
+    .then(
+        res => {
+            document.getElementById("surname").value = ""
+            document.getElementById("name").value = ""
+            document.getElementById("email").value = ""
+            document.getElementById("company").value = ""
+            document.getElementById("message").value = ""
+            alert("Το μήνυμα εστάλη επιτυχώς");
+        }        
+    )
+    
+}
+
 
 
 

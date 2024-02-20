@@ -6,6 +6,16 @@
     <title>Digital Image</title>
     <link rel="icon" type="image/x-icon" href="icons/DIlogo.svg">
     <link rel="stylesheet" href="styles/header.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "ahaIQvSHR3SCNVJqD",
+      });
+   })();
+</script>
 </head>
 <body>
     <div class="header">
@@ -217,21 +227,18 @@
                 <p class="title-text">
                     ΕΠΙΚΟΙΝΩΝΙΑ
                 </p>
-                <form action="https://formsubmit.co/digitalimage.technology@gmail.com" method="POST">
-                    <input type="text" name="_honey" style="display: none;">
-                    <input type="hidden" name="_captcha" value="false">
-                    <input type="hidden" name="_next" value="https://mdigitalimage.github.io/digitalimage/success.html">
+                <div>
                     <div class="main-contact">                    
-                        <input class="surname" name="surname" type="text" placeholder="Επίθετο" style="margin-top: 0px;" required>
-                        <input class="firstname" name="name" type="name" placeholder="Όνομα" required>
-                        <input class="email" name="email" type="email" placeholder="E-mail" required>
-                        <input class="company" name="company" placeholder="Εταιρία">
-                        <input class="message" name="message" placeholder="Σύντομο Μύνημα">
-                        <button type="submit">
+                        <input id="surname" class="surname" name="surname" type="text" placeholder="Επίθετο" style="margin-top: 0px;" required>
+                        <input id="name" class="firstname" name="name" type="name" placeholder="Όνομα" required>
+                        <input id="email" class="email" name="email" type="email" placeholder="E-mail" required>
+                        <input id="company" class="company" name="company" placeholder="Εταιρία">
+                        <input id="message" class="message" name="message" placeholder="Σύντομο Μύνημα" required>
+                        <button onclick="sendMail()" type="submit">
                             ΥΠΟΒΟΛΗ
                         </button>                    
                     </div>
-                </form>
+                </div>
                 <div>
                     <a href="https://www.instagram.com/digitalimage.gr/"><img class="socialmedialogo" src="icons/iglogo.svg" alt=""></a>
                 </div>
