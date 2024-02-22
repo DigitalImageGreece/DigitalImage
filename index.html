@@ -18,6 +18,9 @@
 </script>
 </head>
 <body>
+    <div id="loader">
+
+    </div>
     <div class="header">
         <div class="left-session" >
             <p class="header-text" >
@@ -276,5 +279,13 @@
     </div>
     <script src="scripts/digitalimage.js"></script> 
     <script src="https://smtpjs.com/v3/smtp.js"></script>  
+    <script>
+        var loader = document.getElementById("loader");       
+
+        window.onload = function() {
+            loader.style.display="none";
+        };
+        
+    </script>
 </body>
 </html>
